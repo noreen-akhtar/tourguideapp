@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "guide",
+    "slug": "test",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.guide.guide",
+      "config": {
+         "googleMaps": { "apiKey": "<0D:99:1D:EC:5A:DD:49:E1:95:B0:D3:33:FA:16:D1:1D:AC:F0:72:E8>" }   
+      }
+   }
+  }
+}
